@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<script>
+    function minhaFuncao(){
+        var texto = "";
+        if (navigator.cookieEnabled == true){
+            texto = "tabuada de 9";
+        }
+        else {
+            texto = "tabuada de 9";
+        }
+        document.getElementById("mensagem").innerHTML = texto;
+    }
+</script>
+<body onload="minhaFuncao()">
+    <h1 id = "mensagem"></h1>
+    <p>
+        9 x 1 = 9 <br>
+        9 x 2 = 18 <br>
+        9 x 3 = 27 <br>
+        9 x 4 = 36 <br>
+        9 x 5 = 45 <br>
+        9 x 6 = 54 <br>
+        9 x 7 = 63 <br>
+        9 x 8 = 72 <br>
+        9 x 9 = 81 <br>
+        9 x 10 = 90
+    </p>
+</body>
+</html>
